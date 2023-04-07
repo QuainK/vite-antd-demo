@@ -2,6 +2,28 @@
 # yarn lockfile v1
 
 
+"@antv/x6-common@^2.0.11":
+  version "2.0.11"
+  resolved "https://registry.npmmirror.com/@antv/x6-common/-/x6-common-2.0.11.tgz#6da61bd4f870a4d0f3c0cd39b3d057e6e641d94d"
+  integrity sha512-tSs1fa+xAE1Ty0ecu3GtvQh482CbeuTaHJjuXXfKHjaUoAjI7I5qOe/h4BFF0SnjQSxqHj+HyBT4aXsgNmJ8lg==
+  dependencies:
+    lodash-es "^4.17.15"
+    utility-types "^3.10.0"
+
+"@antv/x6-geometry@^2.0.4":
+  version "2.0.4"
+  resolved "https://registry.npmmirror.com/@antv/x6-geometry/-/x6-geometry-2.0.4.tgz#d08213e200e16c8d065a0235189239cb367a0797"
+  integrity sha512-dlsLNRRTiCw8TsJ/03j3y5IbbbK4Npf6zBH6kAx8nnW+edNT/TAOChvPRzizwD+vA7wY9Rp2AiRnp/vCdIYC5w==
+
+"@antv/x6@^2.9.4":
+  version "2.9.4"
+  resolved "https://registry.npmmirror.com/@antv/x6/-/x6-2.9.4.tgz#cf930a46f496de27588290b3136f1cbb1c4245e4"
+  integrity sha512-Q9AuU6gGnTF8zFFGzpH2q6kvO5giPJpXQdgDp2mQGpu2DPm8howovtXCWRKCfDx8WJ8ccNbZ3RrzusN8kk6iYA==
+  dependencies:
+    "@antv/x6-common" "^2.0.11"
+    "@antv/x6-geometry" "^2.0.4"
+    utility-types "^3.10.0"
+
 "@babel/parser@^7.16.4":
   version "7.21.4"
   resolved "https://registry.npmmirror.com/@babel/parser/-/parser-7.21.4.tgz#94003fdfc520bbe2875d4ae557b43ddb6d880f17"
@@ -340,6 +362,11 @@ is-core-module@^2.11.0:
   dependencies:
     has "^1.0.3"
 
+lodash-es@^4.17.15:
+  version "4.17.21"
+  resolved "https://registry.npmmirror.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
+  integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
+
 magic-string@^0.25.7:
   version "0.25.9"
   resolved "https://registry.npmmirror.com/magic-string/-/magic-string-0.25.9.tgz#de7f9faf91ef8a1c91d02c2e5314c8277dbcdd1c"
@@ -423,6 +450,11 @@ typescript@^4.9.3:
   version "4.9.5"
   resolved "https://registry.npmmirror.com/typescript/-/typescript-4.9.5.tgz#095979f9bcc0d09da324d58d03ce8f8374cbe65a"
   integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
+
+utility-types@^3.10.0:
+  version "3.10.0"
+  resolved "https://registry.npmmirror.com/utility-types/-/utility-types-3.10.0.tgz#ea4148f9a741015f05ed74fd615e1d20e6bed82b"
+  integrity sha512-O11mqxmi7wMKCo6HKFt5AhO4BwY3VV68YU07tgxfz8zJTIxr4BpsezN49Ffwy9j3ZpwwJp4fkRwjRzq3uWE6Rg==
 
 vite@^4.2.0:
   version "4.2.1"

@@ -42,7 +42,14 @@ onMounted(() => {
   const graph = new Graph({
     container: graphDom.value as HTMLElement,
     width: 800,
-    height: 600
+    height: 600,
+    background: {
+      color: '#fffbe6', // 设置画布背景颜色
+    },
+    grid: {
+      size: 10,      // 网格大小 10px
+      visible: true, // 渲染网格背景
+    },
   })
 
   graph.fromJSON(data)
@@ -50,7 +57,4 @@ onMounted(() => {
 </script>
 
 <style scoped>
-#container {
-  background: #eee;
-}
 </style>
